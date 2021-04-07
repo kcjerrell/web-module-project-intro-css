@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot,
+thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+* {
+  /* border: 1px dashed gray; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: white;
+  color: #222;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 6rem;
+}
+
+nav {
+  padding: 2% 0;
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  display: block;
+  padding: 1%;
+  border-radius: 10px;
+  width: 16%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  margin: auto;
+  letter-spacing: .2rem;
+  font-size: 2.2rem;
+}
+
+.orange {
+  background-color: #ff764e;
+}
+
+.blue {
+  background-color: #5ed3eb;
+}
+
+.yellow {
+  background-color: #ffcd69;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  padding: 4% 0;
+}
+
+.top div {
+  display: block;
+  margin: 0 2%;
+}
+
+.topLeft {
+  width: 30%;
+}
+
+.topLeft img {
+  border-radius: 50%;
+  width: 100%;
+  padding: 5%;
+}
+
+.topRight {
+  width: 70%;
+  padding: 3%;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.topRight p {
+  margin: 2% 0;
+}
+
+.topRight p:last-child {
+  /* width: 45%; */
+  margin: 2% 20%;
+}
+
+.midBox {
+  width: 90%;
+  background-color: #ddb9a3;
+  margin: 1% auto;
+}
+
+.midBox p {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 1%;
+}
+
+.imgBlock {
+  margin: 4% auto;
+  width: 25%;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.imgBlock img {
+  display: block;
+  margin: 2% auto;
+  width: 50%;
+}
+
+.footerImg {
+  background-image: url("assets/footer_img.jpg");
+  height: 300px;
+  background-size: cover;
+  background-position: 0px -80px;
+}
+
+.footNav {
+  background-color: #f9e7dc;
+}
+
+span.bold {
+  font-weight: bold;
+}
